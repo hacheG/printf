@@ -11,4 +11,5 @@ int _printChar(va_list values);
 int _printString(va_list values);
 int _printDec(va_list values);
 int _printInt(va_list ar_numlist);
+int (*get_func(char s))(va_list values);
 #endif
