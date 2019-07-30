@@ -6,5 +6,13 @@
  **/
 int _printf(const char *format, ...)
 {
+	if (format != NULL)
+	{
+		int i;
+		va_list values;
+		int (*savef)(va_list);
+		va_start(values, format);
 
+		va_end(values);
+	}
 }
