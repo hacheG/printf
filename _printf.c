@@ -32,6 +32,8 @@ int _printf(const char *format, ...)
 				else if (format[i + 1] != '\0')
 				{
 					savef = get_func(format[i + 1]);
+					if (savef)
+						count = count + savef(values);
 				}
 			}
 		}
