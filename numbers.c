@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_d - Print decimal (Base 10)
+ * _printDec - Print decimal (Base 10)
  * @values: Store the value of arguments
  * Return: Counter print numbers
  */
