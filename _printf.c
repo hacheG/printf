@@ -29,6 +29,10 @@ int _printf(const char *format, ...)
 					count = count + _putchar(format[i]);
 					i++;
 				}
+				else if (format[i + 1] != '\0')
+				{
+					
+				}
 			}
 		}
 
