@@ -25,6 +25,6 @@ printed not counting \\0 for the string.
 .I printf(1), printf(3)
 .SH BUGS
 Report printf bugs to 943@holbertonschool.com or
-doniben.jimenez-jaramillo@holbertonschool.com
+921@holbertonschool.com
 .SH AUTHOR
 Writen by Doniben Jimenez Jaramillo and Hugo Alberto Trujillo
