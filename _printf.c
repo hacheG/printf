@@ -13,8 +13,8 @@ int _printf(const char *format, ...)
 		int i;
 		va_list values;
 		int (*savef)(va_list);
-		va_start(values, format);
 
+		va_start(values, format);
 		if (format[0] == '%' && format[1] == '\0')
 			return (-1);
 
@@ -35,9 +35,7 @@ int _printf(const char *format, ...)
 					if (savef)
 						count = count + savef(values);
 					else
-						count += _putchar(format[i]) +
-							_putchar(format[i + 1]);
-
+						count += _putchar(format[i]) + _putchar(format[i + 1]);
 					i++;
 				}
 			}
