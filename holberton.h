@@ -6,6 +6,18 @@
 #include <stdio.h>
 #include <limits.h>
 
+/**
+ * struct op - flag / function object
+ * @c: flag
+ * @f: function
+ */
+
+typedef struct op
+{
+	char *c;
+	int (*f)(va_list);
+} op_t;
+
 int _putchar(char c);
 int _printChar(va_list values);
 int _printString(va_list values);
