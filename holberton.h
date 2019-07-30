@@ -7,4 +7,5 @@
 #include <limits.h>
 
 int _putchar(char c);
+int _printChar(va_list values);
 #endif
