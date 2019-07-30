@@ -8,4 +8,5 @@
 
 int _putchar(char c);
 int _printChar(va_list values);
+int _printString(va_list values);
 #endif
